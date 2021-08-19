@@ -29,11 +29,11 @@ const coin = {
       const image = document.createElement("img");
       let face = this.toString()
       if(face === 'Heads'){
-        image.src = "../images/heads.png"
+        image.src = "../images/Heads.png"
         image.alt = "Heads"
       }
       if(face === 'Tails'){
-        image.src = '../images/tails.png'
+        image.src = '../images/Tails.png'
         image.alt = 'Tails'
       }
       
