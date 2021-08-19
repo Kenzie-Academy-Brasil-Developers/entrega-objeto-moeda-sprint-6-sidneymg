@@ -23,7 +23,6 @@ const coin = {
     // Colocar uma imagem correspondente a essa valor.
     // return image;
 
-    
   
     toHTML: function () {
       const image = document.createElement("img");
@@ -51,7 +50,6 @@ const coin = {
   function display20Flips() {
     const results = [];
     let resultado = document.createElement('h3')
-
     for(let  i = 0; i < 20; i++){
       coin.flip()
       results.push(coin.toString())
